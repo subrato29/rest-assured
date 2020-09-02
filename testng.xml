@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="testscripts.ExtractWeatherDescByJsonPath"/>
+      <class name="testscripts_dummyJSONServer.TestCaseGETRequest"/>
+      <class name="testscriptsofbankaccounts.NameOfMaleClients_TS016"/>
+      <class name="testscripts_dummyJSONServer.TestCasePATCHRequest"/>
+      <class name="testscripts.ExtractJsonDataByCityId"/>
+      <class name="testscripts_dummyJSONServer.TestCaseDELETERequest"/>
+      <class name="testscripts_dummyJSONServer.TestCaseGETResponseTime"/>
+      <class name="testscriptsofbankaccounts.CountOfClients_TS015"/>
+      <class name="testscripts_dummyJSONServer.TestCasePOSTComplex"/>
+      <class name="testscripts.Test123"/>
+      <class name="testscripts.ExtractJsonDataByCityName"/>
+      <class name="testscripts_dummyJSONServer.TestCasePOSTRequestByObject"/>
+      <class name="testscriptsofbankaccounts.POSTNewData_TS018"/>
+      <class name="testscripts_dummyJSONServer.TestCasePUTRequest"/>
+      <class name="testscripts.WeatherGetRequest"/>
+      <class name="testscripts_advancedJSON.TestCasePOSTAdvanced"/>
+      <class name="testscripts_dummyJSONServer.TestCasePOSTRequest"/>
+      <class name="com.api.support.ReportEvent"/>
+      <class name="testscripts.WeatherGetRequestParam"/>
+      <class name="testscriptsofbankaccounts.NameOfFemaleClients_TS017"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
